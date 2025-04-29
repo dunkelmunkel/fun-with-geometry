@@ -23,6 +23,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{epstopdf}
 \RequirePackage{titling}
+\RequirePackage{siunitx}
 \RequirePackage[backend=biber,style=apa]{biblatex}
 \DeclareFieldFormat{apacase}{#1}
 \DeclareLanguageMapping{ngerman}{ngerman-apa}
