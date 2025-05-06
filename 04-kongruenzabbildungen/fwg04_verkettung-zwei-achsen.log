@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  6 MAY 2025 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  6 MAY 2025 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**fwg03_darstellende-geometrie.tex
-(./fwg03_darstellende-geometrie.tex
+**fwg04_verkettung-zwei-achsen.tex
+(./fwg04_verkettung-zwei-achsen.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (../cssheet.cls
@@ -784,8 +784,8 @@ F.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 22.
 
-(./fwg03_darstellende-geometrie.aux)
-\openout1 = `fwg03_darstellende-geometrie.aux'.
+(./fwg04_verkettung-zwei-achsen.aux)
+\openout1 = `fwg04_verkettung-zwei-achsen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -899,48 +899,41 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `fwg03_darstellende-geometrie.bcf'.
+\openout4 = `fwg04_verkettung-zwei-achsen.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'fwg03_darstellende-geometrie.bbl' not found.
+Package biblatex Info: ... file 'fwg04_verkettung-zwei-achsen.bbl' not found.
 
-No file fwg03_darstellende-geometrie.bbl.
+No file fwg04_verkettung-zwei-achsen.bbl.
 Package biblatex Info: Reference section=0 on input line 22.
 Package biblatex Info: Reference segment=0 on input line 22.
 Package hyperref Info: Link coloring ON on input line 22.
-(./fwg03_darstellende-geometrie.out) (./fwg03_darstellende-geometrie.out)
+(./fwg04_verkettung-zwei-achsen.out) (./fwg04_verkettung-zwei-achsen.out)
 \@outlinefile=\write5
-\openout5 = `fwg03_darstellende-geometrie.out'.
+\openout5 = `fwg04_verkettung-zwei-achsen.out'.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 23.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 23.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 28.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
-<quad-pyramide.png, id=4, 359.3425pt x 181.67876pt>
-File: quad-pyramide.png Graphic file (type png)
-<use quad-pyramide.png>
-Package pdftex.def Info: quad-pyramide.png  used on input line 38.
-(pdftex.def)             Requested size: 170.71652pt x 86.31493pt.
-<tetraeder.png, id=6, 380.42125pt x 196.735pt>
-File: tetraeder.png Graphic file (type png)
-<use tetraeder.png>
-Package pdftex.def Info: tetraeder.png  used on input line 47.
-(pdftex.def)             Requested size: 170.71652pt x 88.28676pt.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 53.
-<../../logos/cc-zero.png, id=7, 66.30275pt x 23.42697pt>
-File: ../../logos/cc-zero.png Graphic file (type png)
-<use ../../logos/cc-zero.png>
-Package pdftex.def Info: ../../logos/cc-zero.png  used on input line 55.
-(pdftex.def)             Requested size: 80.53004pt x 28.45274pt.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 55.
+(Font)              scaled to size 10.0pt on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 25.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 29.
+<sich-schneidende-geraden.png, id=4, 788.9475pt x 523.9575pt>
+File: sich-schneidende-geraden.png Graphic file (type png)
+<use sich-schneidende-geraden.png>
+Package pdftex.def Info: sich-schneidende-geraden.png  used on input line 31.
+(pdftex.def)             Requested size: 284.52756pt x 188.96034pt.
+<zwei-parallele-geraden.png, id=6, 659.46375pt x 293.095pt>
+File: zwei-parallele-geraden.png Graphic file (type png)
+<use zwei-parallele-geraden.png>
+Package pdftex.def Info: zwei-parallele-geraden.png  used on input line 41.
+(pdftex.def)             Requested size: 284.52756pt x 126.45772pt.
 
 
 Package epstopdf Info: Source file: <../../logos/phhd.eps>
@@ -951,19 +944,27 @@ Package epstopdf Info: Source file: <../../logos/phhd.eps>
 (epstopdf)                    size: 27289 bytes
 (epstopdf)             Command: <repstopdf --outfile=../../logos/phhd-eps-conve
 rted-to.pdf ../../logos/phhd.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<../../logos/phhd-eps-converted-to.pdf, id=24, 243.91125pt x 103.38625pt>
+<../../logos/phhd-eps-converted-to.pdf, id=7, 243.91125pt x 103.38625pt>
 File: ../../logos/phhd-eps-converted-to.pdf Graphic file (type pdf)
 <use ../../logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: ../../logos/phhd-eps-converted-to.pdf  used on input l
-ine 58.
+ine 50.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}
 
- <../../logos/phhd-eps-converted-to.pdf> <./quad-pyramide.png> <./tetraeder.png
-> <../../logos/cc-zero.png>]
+ <../../logos/phhd-eps-converted-to.pdf> <./sich-schneidende-geraden.png> <./zw
+ei-parallele-geraden.png>]
+<../../logos/cc-zero.png, id=28, 66.30275pt x 23.42697pt>
+File: ../../logos/cc-zero.png Graphic file (type png)
+<use ../../logos/cc-zero.png>
+Package pdftex.def Info: ../../logos/cc-zero.png  used on input line 53.
+(pdftex.def)             Requested size: 80.53004pt x 28.45274pt.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 53.
+
 
 Package epstopdf Info: Source file: <../../logos/phhd.eps>
 (epstopdf)                    date: 2024-12-29 23:40:30
@@ -973,14 +974,14 @@ Package epstopdf Info: Source file: <../../logos/phhd.eps>
 (epstopdf)                    size: 27289 bytes
 (epstopdf)             Command: <repstopdf --outfile=../../logos/phhd-eps-conve
 rted-to.pdf ../../logos/phhd.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 File: ../../logos/phhd-eps-converted-to.pdf Graphic file (type pdf)
 <use ../../logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: ../../logos/phhd-eps-converted-to.pdf  used on input l
-ine 58.
+ine 57.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
-[2] (./fwg03_darstellende-geometrie.aux)
+[2 <../../logos/cc-zero.png>] (./fwg04_verkettung-zwei-achsen.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -989,23 +990,23 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `fwg03_darstellende-geometrie.out' has not ch
+Package rerunfilecheck Info: File `fwg04_verkettung-zwei-achsen.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                fwg03_darstellende-geometrie
+(biblatex)                fwg04_verkettung-zwei-achsen
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to 'fwg03_darstellende-geometrie.run.xml'
+Package logreq Info: Writing requests to 'fwg04_verkettung-zwei-achsen.run.xml'
 .
-\openout1 = `fwg03_darstellende-geometrie.run.xml'.
+\openout1 = `fwg04_verkettung-zwei-achsen.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  22536 strings out of 473190
- 452254 string characters out of 5715800
- 1360758 words of memory out of 5000000
+ 452422 string characters out of 5715800
+ 1353835 words of memory out of 5000000
  45541 multiletter control sequences out of 15000+600000
  641758 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1015,8 +1016,8 @@ d.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/impallari/raleway/Raleway
 -Italic.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/impallari/raleway/R
 aleway-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb>
-Output written on fwg03_darstellende-geometrie.pdf (2 pages, 129517 bytes).
+ts/cm/cmsy10.pfb>
+Output written on fwg04_verkettung-zwei-achsen.pdf (2 pages, 147767 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
