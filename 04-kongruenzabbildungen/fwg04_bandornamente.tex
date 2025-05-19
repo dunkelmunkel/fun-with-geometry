@@ -1,0 +1,98 @@
+\documentclass[a4paper, 12pt]{mksheetphhd}
+
+
+\title{Bandornamente}
+\author{Marvin Ködding}
+\DeclareMathOperator{\MOD}{\:MOD\:}
+\DeclareMathOperator{\ggT}{ggT}
+\usepackage{tikz}
+
+%\sisetup{locale = DE}  
+
+\begin{document}
+	
+	\printtitle
+	
+	\vspace*{0.2cm}
+	
+	\begin{aufgabe}
+		Ein Bandornament ist ein unendlich ausgedehntes, eindimensionales Muster, das aus Abbildung eines Grundelements durch beliebig viele Kongruenzabbildungen entsteht. Es gibt insgesamt $7$ verschiedene Typen von Bandornamenten, die man durch die darin enthaltenen Kongruenzabbildungen kategorisieren kann. Untersucht, welche Kongruenzabbildungen in den verschiedenen Bandornamenten vorkommen:
+	\end{aufgabe}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			\draw[ultra thick] (-.2,1.2) -- (14.7, 1.2);
+			\draw[ultra thick] (-.2,-.2) -- (14.7, -.2);
+			\foreach \x in {0,1.5,...,13.5}
+			{\draw[thick] (\x, 0.5) -- ++(.9, .5) -- ++(0, -1);}
+		\end{tikzpicture}
+		
+		\begin{tikzpicture}
+			\draw[ultra thick] (-.2,1.2) -- (14.7, 1.2);
+			\draw[ultra thick] (-.2,-.2) -- (14.7, -.2);
+			\foreach \x in {0,2.5,...,13}
+			{
+				\draw[thick] (\x, 0.5) -- ++(.8, .5) -- ++(0, -1);
+				\draw[thick] (\x + 1.2, 1) -- ++(0, -1) -- ++(.8, .5);
+			}
+		\end{tikzpicture}
+		
+		\begin{tikzpicture}
+			\draw[ultra thick] (-.2,1.2) -- (14.7, 1.2);
+			\draw[ultra thick] (-.2,-.2) -- (14.7, -.2);
+			\foreach \x in {0,2.5,...,13}
+			{
+				\draw[thick] (\x, 0.5) -- ++(.8, .5) -- ++(0, -1);
+				\draw[thick] (\x + 1.2, 0) -- ++(0, 1) -- ++(.8, -.5);
+			}
+		\end{tikzpicture}
+		
+		\begin{tikzpicture}
+			\draw[ultra thick] (-.2,1.2) -- (14.7, 1.2);
+			\draw[ultra thick] (-.2,-.2) -- (14.7, -.2);
+			\foreach \x in {0,2.5,...,13}
+			{
+				\draw[thick] (\x, 0.5) -- ++(.8, .5) -- ++(0, -1);
+				\draw[thick] (\x + 1.2, .5) -- ++(0.8, -.5) -- ++(0, 1);
+			}
+		\end{tikzpicture}
+		
+		\begin{tikzpicture}
+			\draw[ultra thick] (-.2,1.2) -- (14.7, 1.2);
+			\draw[ultra thick] (-.2,-.2) -- (14.7, -.2);
+			\foreach \x in {0,1.53,...,14}
+			{
+				\draw[thick] (\x, .9) -- ++(.8, 0) -- ++(0, -.8) -- ++(-.8, 0);
+			}
+		\end{tikzpicture}
+		
+		\begin{tikzpicture}
+			\draw[ultra thick] (-.2,1.2) -- (14.7, 1.2);
+			\draw[ultra thick] (-.2,-.2) -- (14.7, -.2);
+			\foreach \x in {0,5,...,13}
+			{
+				\draw[thick] (\x, 0.5) -- ++(.8, .5) -- ++(0, -1);
+				\draw[thick] (\x + 1.2, 0) -- ++(0, 1) -- ++(.8, -.5);
+				\draw[thick] (\x + 2.4, 0.5) -- ++(.8, -.5) -- ++(0, 1);
+				\draw[thick] (\x + 3.6, 1) -- ++(0, -1) -- ++(.8, .5);
+			}
+		\end{tikzpicture}
+		
+		\begin{tikzpicture}
+			\draw[ultra thick] (-.2,1.2) -- (14.7, 1.2);
+			\draw[ultra thick] (-.2,-.2) -- (14.7, -.2);
+			\foreach \x in {0,2.5,...,14}
+			{
+				\draw[thick] (\x, .9) -- ++(.8, 0) -- ++(0, -.8) -- ++(-.8, 0);
+				\draw[thick] (\x + 2, .9) -- ++(-.8, 0) -- ++(0, -.8) -- ++(.8, 0);
+			}
+		\end{tikzpicture}
+		
+	\end{center}
+	
+	
+	\printlicense
+	
+	%\printsocials
+	
+\end{document}
