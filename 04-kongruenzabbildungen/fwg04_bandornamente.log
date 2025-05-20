@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  19 MAY 2025 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.26)  19 MAY 2025 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,11 +6,7 @@ entering extended mode
 (./fwg04_bandornamente.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(../cssheet.cls
-
-LaTeX Warning: You have requested document class `../cssheet',
-               but the document class provides `cssheet'.
-
+(/Users/wombat/Library/texmf/tex/latex/git-latex-docclasses/cssheet.cls
 Document Class: cssheet 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
@@ -1456,10 +1452,10 @@ Package logreq Info: Writing requests to 'fwg04_bandornamente.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35195 strings out of 473190
- 711649 string characters out of 5715800
- 1606253 words of memory out of 5000000
- 57940 multiletter control sequences out of 15000+600000
+ 35194 strings out of 473190
+ 711785 string characters out of 5715800
+ 1606257 words of memory out of 5000000
+ 57939 multiletter control sequences out of 15000+600000
  660661 words of font info for 71 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,15n,131p,708b,7349s stack positions out of 10000i,1000n,20000p,200000b,200000s
